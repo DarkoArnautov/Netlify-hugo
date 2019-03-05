@@ -13,14 +13,42 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Hero", name: "heroTitle", widget: "string"}
-      - {label: "Feature1", name: "firstFeature", widget: "object", fields: [{label: "Heading", name: 'heading', widget: 'string'}, {label: "FeatureItems", name: 'items', widget: 'list'}]}
-      - {label: "Divider", name: 'divider', widget: "object", fields: [{label: "Heading", name: "heading", widget: "string"}, {label: "Description", name: "description", widget: "string"}]}
-      - {label: "Feature2", name: "secondFeature", widget: "object", fields: [{label: "Heading", name: 'heading', widget: 'string'}, {label: "FeatureItems", name: 'items', widget: 'list'}]}
-      - {label: "MapDivider", name: 'mapDivdier', widget: "object", fields: [{label: "Heading", name: "heading", widget: "string"}, {label: "Description", name: "description", widget: "string"}]}
+      - {label: "Feature1", name: "firstFeature", widget: "object", 
+          fields: [
+            {label: "FeatureHeader", name: 'heading', widget: 'string'}, 
+            {label: "FeatureItems", name: 'items', widget: 'list', 
+              fields: [
+                {label: "ItemName", name: 'name', widget: 'string'}
+              ]
+            }
+          ]
+        }
+      - {label: "Divider", name: 'divider', widget: "object", 
+          fields: [
+            {label: "DividerHeader", name: "heading", widget: "string"}, 
+            {label: "Description", name: "description", widget: "string"}
+          ]
+        }
+      - {label: "Feature2", name: "secondFeature", widget: "object", 
+          fields: [
+            {label: "FeatureHeader", name: 'heading', widget: 'string'}, 
+            {label: "FeatureItems", name: 'items', widget: 'list', 
+              fields: [
+                {label: "ItemName", name: 'name', widget: 'string'}
+              ]
+            }
+          ]
+        }
+      - {label: "MapDivider", name: 'mapDivdier', widget: "object", 
+          fields: [
+            {label: "MapDividerHeader", name: "heading", widget: "string"}, 
+            {label: "Description", name: "description", widget: "string"}
+          ]
+        }
       - {label: "Team", name: "team", widget: "object", 
           fields: [
-            {label: "Heading1", name: 'heading1', widget: 'string'}, 
-            {label: "Team1", name: 'team1', widget: 'list',
+            {label: "FirstTeamHeader", name: 'heading1', widget: 'string'}, 
+            {label: "FirstTeam", name: 'team1', widget: 'list',
               fields: [
                 {label: "Photo", name: "image", widget: 'image'},
                 {label: "Name", name: "name", widget: 'string'},
@@ -30,8 +58,8 @@ collections:
                 {label: 'Description', name: 'description', widget: 'text'}
               ]
             },
-            {label: "Heading2", name: 'heading2', widget: 'string'}, 
-            {label: "Team2", name: 'team2', widget: 'list',
+            {label: "SecondTeamHeader", name: 'heading2', widget: 'string'}, 
+            {label: "SecondTeam", name: 'team2', widget: 'list',
               fields: [
                 {label: "Photo", name: "image", widget: 'image'},
                 {label: "Name", name: "name", widget: 'string'},
