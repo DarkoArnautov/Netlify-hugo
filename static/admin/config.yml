@@ -13,6 +13,37 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Hero", name: "heroTitle", widget: "string"}
-      - {label: "Våret jenester:", name: "firstFeature", widget: "object", fields: [{label: "Heading", name: 'heading', widget: 'string'}, {label: "FeatureItems", name: 'items', widget: 'list'}]}
+      - {label: "Feature1", name: "firstFeature", widget: "object", fields: [{label: "Heading", name: 'heading', widget: 'string'}, {label: "FeatureItems", name: 'items', widget: 'list'}]}
       - {label: "Divider", name: 'divider', widget: "object", fields: [{label: "Heading", name: "heading", widget: "string"}, {label: "Description", name: "description", widget: "string"}]}
-      - {}
+      - {label: "Feature2", name: "secondFeature", widget: "object", fields: [{label: "Heading", name: 'heading', widget: 'string'}, {label: "FeatureItems", name: 'items', widget: 'list'}]}
+      - {label: "MapDivider", name: 'mapDivdier', widget: "object", fields: [{label: "Heading", name: "heading", widget: "string"}, {label: "Description", name: "description", widget: "string"}]}
+      - {label: "Team", name: "team", widget: "object", 
+          fields: [
+            {label: "Heading1", name: 'heading1', widget: 'string'}, 
+            {label: "Team1", name: 'team1', widget: 'List',
+              fields: [
+                {label: "Photo", name: "image", widget: 'image'},
+                {label: "Name", name: "name", widget: 'string'},
+                {label: "Role", name: "role", widget: 'string'},
+                {label: 'Telefon', name: 'tlf', widget: 'string'},
+                {label: 'Email', name: 'email', widget: 'string'},
+                {label: 'Description', name: 'description', widget: 'text'}
+              ]
+            }
+            {label: "Heading2", name: 'heading2', widget: 'string'}, 
+            {label: "Team2", name: 'team2', widget: 'List',
+              fields: [
+                {label: "Photo", name: "image", widget: 'image'},
+                {label: "Name", name: "name", widget: 'string'},
+                {label: "Role", name: "role", widget: 'string'},
+                {label: 'Telefon', name: 'tlf', widget: 'string'},
+                {label: 'Email', name: 'email', widget: 'string'},
+                {label: 'Description', name: 'description', widget: 'text'}
+              ]
+            }
+          ]
+        }
+      - {label: "Address", name: "address", widget: "string"}
+      - {label: "Post Address", name: "postaddress", widget: "string"}
+      - {label: "Telefon", name: "telefon", widget: "string"}
+      - {label: "EPost", name: "epost", widget: "string"}
