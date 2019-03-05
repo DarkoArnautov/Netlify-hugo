@@ -3,6 +3,7 @@ title: "RegnskapNord"
 heroTitle: "Din økonomipartneri nord"
 firstFeature:
   heading: "Våretjenester:"
+  id: "vare-tjenester"
   items: 
    - name: Regnskapsførsel inkl. prosjekt og avdeling
    - name: Lønn inkl. ansvar for lovpålagte rapporter
@@ -16,6 +17,7 @@ divider:
   description: "Regnskap Nord AS ble etablert tilbake i 1988, da under navnet NorSoft Regnskap & Data. I snart 30 år har vi levert regnskapsføring og økonomisk rådgivning til kunder i Nord-Norge."
 secondFeature:
   heading: "Nettbaserte<br>løsninger:"
+  id: "nettbaserte-losninger"
   items: 
    - name: PowerOffice Go
    - name: Visma Business
