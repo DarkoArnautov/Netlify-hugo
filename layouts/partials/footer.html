@@ -1,0 +1,37 @@
+<footer id="kontakt-oss">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="footer-content"><img src="/images/logoHQ.png"/></div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-3">
+				<div class="footer-content">
+					<table>
+						<tr>
+							<td>Adresse:</td>
+							<td>{{ .Params.address }}</td>
+						</tr>
+						<tr>
+							<td>Postadresse:</td>
+							<td>{{ .Params.postaddress }}</td>
+						</tr>
+						<tr>
+							<td>Telefon:</td>
+							<td><a href="tel:75 60 19 70">{{ .Params.telefon }}</a></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>E-post:</td>
+							<td><a href="mailto:{{ .Params.epost }}">{{ .Params.epost }}</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</footer>
