@@ -44,8 +44,7 @@ team:
         Universitetet I Nordland. Hun har vært ansatt hos oss siden 2002. Hun
         har mange års praksis fra bank og økonomifunksjoner i private bedrifter.
       email: solbjorg@regnskapnord.no
-      image: >-
-        https://lh3.googleusercontent.com/KTOrNmQObv1_A0rxVEc4Cpwu5B9G7hjtcoxr9dFvow0agfbn5sw55_W2Ym354p0InZ7QkVAybG2DB-UqK5XP_wxSCGZY=w300-h200
+      image: /images/uploads/eli.png
       name: Solbjørg Kvæl
       role: Autorisert regnskapsfører
       tlf: 45 90 62 33
