@@ -50,13 +50,15 @@ team:
       tlf: 45 90 62 33
     - description: "Monika er født i 1968, er utdannet innen regnskap og har mange års praksis innen regnskap, \tordre og salg. Hun har vært ansatt hos oss siden 2009."
       email: monika@regnskapnord.no
-      image: /images/uploads/sol.png
+      image: >-
+        https://lh3.googleusercontent.com/JSVY3izg1IjePNJIngf87nNoi0zulwwIp9EWtYXHi4FgKS6va9zNNg7IP9oevB3Kv3-0OvDzvZoB66OH77_kVBR3ZHdV=w300-h200
       name: Monika Solem
       role: Regnskapsfører
       tlf: 45 90 62 32
     - description: "Anne er født i 1968 og er daglig leder med ansvar for det faglige i tillegg til personalansvar og kundeansvar.\t<br> Hun har 3-årig regnskapsutdannelse fra regnskapslinjen ved Handelsskolen. I tillegg har hun en treårig utdannelse som fiskeriøkonom ved Høgskolen i Bodø. Hun har 12 års praksis fra Regnskap Nord og ble i 2001 autorisert. Etter det har hun seks års praksis fra to andre regnskapskontor. Hun begynte hos oss 01.07.17."
       email: anne@regnskapnord.no
-      image: /images/uploads/nilsen.png
+      image: >-
+        https://lh3.googleusercontent.com/b27cJ-1CLlfIh3SCvurFR6UteBt6HVgRLBtNbhhlfcsOufPId5Szcfyn--ljN3uz9TB4_lHM-JD4p86uEhOT1aGAEqHJ=w300-h200
       name: Anne Helén Rudi Nilsen
       role: Autorisert regnskapsfører
       tlf: 459 06 231
@@ -68,7 +70,8 @@ team:
         innen regnskap, både fra private bedrifter og regnskapskontor. Hun
         begynte hos oss 01.07.17.
       email: margrete@regnskapnord.no
-      image: /images/uploads/nicolaisen.png
+      image: >-
+        https://lh3.googleusercontent.com/VkfT9NIEvFpjyt3I2FCwjBiwmcY_0M-YRa8rLyQoLr8jvaRZSofJMPQgQGMM1jS9QlQR-2n3ZzXMW_QBepZimal7pQra=w300-h200
       name: Margrete Beate Olsen Nicolaisen
       role: Daglig Leder og autorisert regnskapsfører
       tlf: 459 06 230
@@ -79,7 +82,8 @@ team:
         tillegg under utdanning for å bli autorisert regnskapsfører. Lisbet
         begynte hos oss 01.05.17.
       email: lisbet.olsen@regnskapnord.no
-      image: /images/uploads/olsen.png
+      image: >-
+        https://lh3.googleusercontent.com/A-PeXX2FpwdsUvMRrjxwgURBjg09PUam7lkjuMdSRpqjTWlwdD6CkGcsx6dQwohTS4KEjmAKYxhylrQwGB4botrA1-bB=w300-h200
       name: Lisbet Olsen
       role: Regnskapsmedarbeider
       tlf: 459 55 790
@@ -88,7 +92,8 @@ team:
         var kontormedarbeider og regnskapsmedarbeider. Hun begynte hos oss den
         01.04.17.
       email: stine@regnskapnord.no
-      image: /images/uploads/pedersen.png
+      image: >-
+        https://lh3.googleusercontent.com/xaWanzXXSq7m93PFFs8O12cdLwAnQIFfX7sPQTY9IC2TgHbD29flQp5W-rYduB9o3J15qOPz3daBH5NdoRn94hUXoEYKGw=w300-h200
       name: Stine Pedersen
       role: IT-økonom og regnskapsmedarbeider
       tlf: 48 84 39 65
@@ -101,7 +106,8 @@ team:
         arbeidspraksis har vært hos Norstat Norge AS som panelansvarlig,
         supportmedarbeider og prosjektleder.
       email: michael@regnskapnord.no
-      image: /images/uploads/sagnes.png
+      image: >-
+        https://lh3.googleusercontent.com/zYzRt40WjTT28y1DdGavr6MTQz3YRuTrpaDsRUqB7yKrpL0hCk9UNcoTXiNf6nIPXXXCWgyk5VkaIgR-wLlDqqwOlFO52w=w300-h200
       name: Michael Sagnes
       role: IT & Markedsansvarlig
       tlf: 92 21 53 28
@@ -111,7 +117,8 @@ team:
         august 2017.<br>Hun er fremdeles under opplæring og lønnsarbeid vil bli
         en av hennes hovedoppgaver.
       email: inger@regnskapnord.no
-      image: /images/uploads/kristin.jpg
+      image: >-
+        https://lh3.googleusercontent.com/Nbj09JKSkYZKbibrm6r3eQP2CM-MWaz438feT6mZh_DaZi96rkQRTM4buIBbxthGMtaGfvGkQR1KLBv8XdylXB60GwkS=w300-h200
       name: Inger Støre Kristiansen
       role: Regnskapsmedarbeider
       tlf: ''
@@ -121,7 +128,8 @@ team:
         bank/finans ved BankAkademiet. Hun har mange års erfaring bak seg innen
         regnskap og begynte hos oss i august 2015.
       email: beathe@regnskapnord.no
-      image: /images/uploads/tennes.png
+      image: >-
+        https://lh3.googleusercontent.com/bc4olq_4vvs5elx5gRBv_yrg8msus7DKbWXeIvcTqjGfIvlZjoL9RXfQA3ef-7Fh9wVRJ12VelZTAeOFNelUIQuIFVoi=w300-h200
       name: Beathe Tennes
       role: Regnskapsfører
       tlf: 40 03 51 03
@@ -133,7 +141,8 @@ team:
         hun begynte hos oss den 01.02.2016.<br>Solrun er avdelingsleder og
         lønnsansvarlig på Tysfjord-avdelingen.
       email: solrun@regnskapnord.no
-      image: /images/uploads/botolfsen.jpg
+      image: >-
+        https://lh3.googleusercontent.com/EREGcWkgw1z0spkClvf4MZxekbd1J-E8-IBwz_yL8--DeBBqUFSYdvxa0i3T6jvOh8ytB-CUZnALnj2NC06eQvImZsw=w300-h200
       name: Solrun Botolfsen
       role: Avdelingsleder og regnskapsfører
       tlf: 40 03 48 72
