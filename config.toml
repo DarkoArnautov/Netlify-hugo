@@ -1,3 +1,22 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+
+defaultContentLanguage = "en"
+
+
+[languages]
+[languages.en]
+weight = 0
+title  = "My multilingual site"
+[[languages.en.menu.main]]
+url = "/"
+name = "Home"
+
+
+[languages.et]
+weight = 1
+title = "Minu mitmekeelne leht"
+[[languages.et.menu.main]]
+url = "/"
+name = "Kodu"
